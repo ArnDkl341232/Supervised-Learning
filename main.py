@@ -51,7 +51,7 @@ plt.show()
 
 #   Prediction
 
-new_value = [[10]]
+new_value = [[1000]]
 predicted_candies = model.predict(new_value)
 print(f"Prediction for {new_value[0][0]}:" , predicted_candies[[0]])
 
